@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ratemywhsteacher/static/css/main.699b6c1e.css",
+    "main.js": "/ratemywhsteacher/static/js/main.ab9a6fda.js",
+    "index.html": "/ratemywhsteacher/index.html",
+    "main.699b6c1e.css.map": "/ratemywhsteacher/static/css/main.699b6c1e.css.map",
+    "main.ab9a6fda.js.map": "/ratemywhsteacher/static/js/main.ab9a6fda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.699b6c1e.css",
+    "static/js/main.ab9a6fda.js"
+  ]
+}
