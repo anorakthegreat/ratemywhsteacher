@@ -7,6 +7,7 @@ import ResultsPage from './components/ResultsPage';
 import { PieChart, Pie, Sector, Cell} from "recharts"
 import Axios from 'axios'
 import LandingPage from './components/LandingPage';
+import TestPage from './components/TestPage';
 
 function App() {
   const[name, setName] = useState("");
@@ -63,7 +64,7 @@ function App() {
     let newArr= []
     let x = "" 
     setError5("Loading...")
-    Axios.get("https://script.google.com/macros/s/" + sheetId + "/exec?type=returnComments&teacher=Ms.B").then((response) => {
+    Axios.get("https://script.google.com/macros/s/" + sheetId + "/exec?type=returnComments&teacher=" + name).then((response) => {
       
       for(var i = 0; i < response["data"].length; i++){
         newArr = newArr.concat(response["data"][i]);
@@ -163,14 +164,6 @@ function App() {
 
   const renderSwitch = () =>{
 
-    // if(name == ""){
-      // return <FirstPage setName = {setName} addNextPage = {addNextPage} next = {next}/>
-    // } else if (next == "true") {
-      // return <TeacherPoll name = {name} addData = {addData} error = {error} getData = {getData}/>
-    // } else if (voted == "true"){
-      // return <ViewResultsPage error={error} viewed={viewed}/>
-    // }
-
     if(level == 0){
       return <FirstPage name = {name} setName = {setName} addNextPage = {addNextPage} next = {next} error = {error} viewTheRatings = {viewTheRatings} error2 = {error2} error3 = {error3} suggestTeacher = {suggestTeacher} teacher = {teacher} setTeacher = {setTeacher} subj = {subj} setSubj = {setSubj}/>
     } else if (level == 1){
@@ -181,9 +174,8 @@ function App() {
       return <ResultsPage name = {name} exit = {exit} error4 = {error4} addComment = {addComment} comment = {comment} setComment = {setComment} loadComments = {loadComments} allComments = {allComments} error5 = {error5}/>
     }
     
-      // return <FirstPage name = {name} setName = {setName} addNextPage = {addNextPage} next = {next} level = {level}/>
-      // return <TeacherPoll name = {name} addData = {addData} error = {error} getData = {getData}/>
-      // return <LandingPage/>
+    // return <TestPage/>
+
 
     
   }
