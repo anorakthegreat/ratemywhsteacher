@@ -110,8 +110,8 @@ function ResultsPage({name, exit, error4, addComment, comment, setComment, loadC
                     <h4>View Comments:</h4>
                     <h6>{error5}</h6>
                     <h2></h2>
-                    {/* <button onClick = {loadComments}>Reload Comments</button> */}
-                    <button onClick = {() => console.log(window.innerWidth)}>Reload Comments</button>
+                    <button onClick = {loadComments}>Reload Comments</button>
+                    {/* <button onClick = {() => console.log(window.innerWidth)}>Reload Comments</button> */}
                     <h3></h3>
                     {allComments.map(comments =>{
                         return <pre>{comments}</pre> 

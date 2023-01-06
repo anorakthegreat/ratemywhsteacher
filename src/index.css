@@ -630,9 +630,9 @@ form:after{
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 0vh;
-  width: 450px;
-  height: 600px;
+  height: 90vh;
+  /* width: 450px; */
+  /* height: 600px; */
 }
 
 .admin4 h4{
@@ -752,23 +752,21 @@ form:after{
 .overAdmin .admin4 .underadmin3{
   /* height: 90vh; */
   width: 90vw;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 5vw;
+  margin-right: 5vw;
 
 }
 
 .overAdmin .admin4 .underadmin{
-  /* height: 100vh; */
   width: 90vw;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .overAdmin .admin4 .underadmin2{
-  height: 100vh;
   width: 90vw;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .form-group:hover{
@@ -776,7 +774,9 @@ form:after{
   /* border: 3px solid #73AD21; */
 }
 
-.form-inner{
+.form-class:hover{
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+
   /* box-shadow: 0px 0px 3px rgba(255, 0, 0, 0.2); */
   /* border: 3px solid #73AD21; */
 
