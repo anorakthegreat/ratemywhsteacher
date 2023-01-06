@@ -24,7 +24,7 @@ ChartJS.register(
 
 function ResultsPage({name, exit, error4, addComment, comment, setComment, loadComments, allComments, error5} ) {
 
-    const sheetId = "AKfycbwKFPSaJUM98XrRPXvIKUmCGa4VTh8RbFQF7dutTlKB1lCpPLUYXF-TqwuOxfB3Z73Y"
+    const sheetId = "AKfycbzbS2HZ3vdBHrAI_TB_ji7oOEBSmcNq9vbnFdetN1YZkpB2zYc7_0E-DEYOvHpTnrbj"
 
     const findData = () => {
         const res = 0
@@ -168,7 +168,7 @@ function ResultsPage({name, exit, error4, addComment, comment, setComment, loadC
                     <h4>View Comments:</h4>
                     <h6>{error5}</h6>
                     <h2></h2>
-                    {/* <button onClick = {loadComments}>Reload Comments</button> */}
+                    <button onClick = {loadComments}>Reload Comments</button>
                     <h3></h3>
                     {allComments.map(comments =>{
                         return <pre>{comments}</pre> 
