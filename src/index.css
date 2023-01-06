@@ -626,11 +626,11 @@ form:after{
   width: 0px;
   height: 0px; */
 
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   text-align: center;
-  height: 90vh;
+  height: 80vh;
   /* width: 450px; */
   /* height: 600px; */
 }

@@ -164,15 +164,15 @@ function App() {
 
   const renderSwitch = () =>{
 
-    if(level == 0){
-      return <FirstPage name = {name} setName = {setName} addNextPage = {addNextPage} next = {next} error = {error} viewTheRatings = {viewTheRatings} error2 = {error2} error3 = {error3} suggestTeacher = {suggestTeacher} teacher = {teacher} setTeacher = {setTeacher} subj = {subj} setSubj = {setSubj}/>
-    } else if (level == 1){
-      return <TeacherPoll name = {name} addData = {addData} error = {error} getData = {getData}/>
-    } else if (level == 2){
-      return <ViewResultsPage name = {name} error={error} viewed={viewed}/>
-    } else if (level == 3){
+    // if(level == 0){
+    //   return <FirstPage name = {name} setName = {setName} addNextPage = {addNextPage} next = {next} error = {error} viewTheRatings = {viewTheRatings} error2 = {error2} error3 = {error3} suggestTeacher = {suggestTeacher} teacher = {teacher} setTeacher = {setTeacher} subj = {subj} setSubj = {setSubj}/>
+    // } else if (level == 1){
+    //   return <TeacherPoll name = {name} addData = {addData} error = {error} getData = {getData}/>
+    // } else if (level == 2){
+    //   return <ViewResultsPage name = {name} error={error} viewed={viewed}/>
+    // } else if (level == 3){
       return <ResultsPage name = {name} exit = {exit} error4 = {error4} addComment = {addComment} comment = {comment} setComment = {setComment} loadComments = {loadComments} allComments = {allComments} error5 = {error5}/>
-    }
+    // }
     
 
 
