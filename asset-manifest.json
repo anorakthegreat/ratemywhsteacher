@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ratemywhsteacher/static/css/main.9ab9b78d.css",
-    "main.js": "/ratemywhsteacher/static/js/main.b02ba039.js",
+    "main.css": "/ratemywhsteacher/static/css/main.43953d5a.css",
+    "main.js": "/ratemywhsteacher/static/js/main.02537e3b.js",
     "index.html": "/ratemywhsteacher/index.html",
-    "main.9ab9b78d.css.map": "/ratemywhsteacher/static/css/main.9ab9b78d.css.map",
-    "main.b02ba039.js.map": "/ratemywhsteacher/static/js/main.b02ba039.js.map"
+    "main.43953d5a.css.map": "/ratemywhsteacher/static/css/main.43953d5a.css.map",
+    "main.02537e3b.js.map": "/ratemywhsteacher/static/js/main.02537e3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ab9b78d.css",
-    "static/js/main.b02ba039.js"
+    "static/css/main.43953d5a.css",
+    "static/js/main.02537e3b.js"
   ]
 }
